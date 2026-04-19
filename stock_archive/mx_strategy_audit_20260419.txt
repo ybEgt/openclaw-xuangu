@@ -1,0 +1,11 @@
+FILE | C:\Users\kevin\.openclaw\workspace\mx_data\output\mx_xuangu_2026-04-17_主板;非ST;非_ST;DDY大于0.09999999999999999;流通市值小于1500亿;换手率大于6.0%;DDX大于0.260.csv
+ROWS | total=200 main_board=200 avg_score=21.23
+TOP1 | 000751 锌业股份 | score=42.82 pct=5.29 inflow=None ddx=2.08 ddy=5.92 ddz=None turnover=12.41 ratio=4.27
+TOP2 | 002119 康强电子 | score=41.67 pct=3.85 inflow=None ddx=2.07 ddy=6.46 ddz=None turnover=17.13 ratio=1.99
+TOP3 | 002866 传艺科技 | score=38.54 pct=10.0 inflow=None ddx=4.04 ddy=7.07 ddz=None turnover=24.35 ratio=1.14
+
+FILE | C:\Users\kevin\.openclaw\workspace\mx_data\output\mx_xuangu_2026-04-17_主板;非ST;非_ST;流通市值小于1000亿;当日主力净流入不低于3000万;3日主力净流入大于0;3日主力净流入不低于8000万.csv
+ROWS | total=99 main_board=99 avg_score=15.18
+TOP1 | 002860 星帅尔 | score=26.82 pct=7.86 inflow=None ddx=None ddy=None ddz=None turnover=13.63 ratio=5.4
+TOP2 | 000751 锌业股份 | score=24.74 pct=5.29 inflow=None ddx=None ddy=None ddz=None turnover=12.41 ratio=4.27
+TOP3 | 600776 东方通信 | score=24.41 pct=7.17 inflow=None ddx=None ddy=None ddz=None turnover=9.07 ratio=4.94

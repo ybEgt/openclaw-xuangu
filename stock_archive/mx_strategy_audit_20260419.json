@@ -1,0 +1,96 @@
+[
+  {
+    "file": "C:\\Users\\kevin\\.openclaw\\workspace\\mx_data\\output\\mx_xuangu_2026-04-17_主板;非ST;非_ST;DDY大于0.09999999999999999;流通市值小于1500亿;换手率大于6.0%;DDX大于0.260.csv",
+    "rows": 200,
+    "main_board_rows": 200,
+    "avg_score": 21.23,
+    "top3": [
+      {
+        "code": "000751",
+        "name": "锌业股份",
+        "pct": 5.29,
+        "inflow": null,
+        "ddx": 2.08,
+        "ddy": 5.92,
+        "ddz": null,
+        "turnover": 12.41,
+        "ratio": 4.27,
+        "cap": 8134999999.999999,
+        "score": 42.82
+      },
+      {
+        "code": "002119",
+        "name": "康强电子",
+        "pct": 3.85,
+        "inflow": null,
+        "ddx": 2.07,
+        "ddy": 6.46,
+        "ddz": null,
+        "turnover": 17.13,
+        "ratio": 1.99,
+        "cap": 8800000000.0,
+        "score": 41.67
+      },
+      {
+        "code": "002866",
+        "name": "传艺科技",
+        "pct": 10.0,
+        "inflow": null,
+        "ddx": 4.04,
+        "ddy": 7.07,
+        "ddz": null,
+        "turnover": 24.35,
+        "ratio": 1.14,
+        "cap": 4782000000.0,
+        "score": 38.54
+      }
+    ]
+  },
+  {
+    "file": "C:\\Users\\kevin\\.openclaw\\workspace\\mx_data\\output\\mx_xuangu_2026-04-17_主板;非ST;非_ST;流通市值小于1000亿;当日主力净流入不低于3000万;3日主力净流入大于0;3日主力净流入不低于8000万.csv",
+    "rows": 99,
+    "main_board_rows": 99,
+    "avg_score": 15.18,
+    "top3": [
+      {
+        "code": "002860",
+        "name": "星帅尔",
+        "pct": 7.86,
+        "inflow": null,
+        "ddx": null,
+        "ddy": null,
+        "ddz": null,
+        "turnover": 13.63,
+        "ratio": 5.4,
+        "cap": 4922000000.0,
+        "score": 26.82
+      },
+      {
+        "code": "000751",
+        "name": "锌业股份",
+        "pct": 5.29,
+        "inflow": null,
+        "ddx": null,
+        "ddy": null,
+        "ddz": null,
+        "turnover": 12.41,
+        "ratio": 4.27,
+        "cap": 8134999999.999999,
+        "score": 24.74
+      },
+      {
+        "code": "600776",
+        "name": "东方通信",
+        "pct": 7.17,
+        "inflow": null,
+        "ddx": null,
+        "ddy": null,
+        "ddz": null,
+        "turnover": 9.07,
+        "ratio": 4.94,
+        "cap": 16003000000.0,
+        "score": 24.41
+      }
+    ]
+  }
+]
