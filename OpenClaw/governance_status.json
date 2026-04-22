@@ -1,0 +1,121 @@
+{
+  "checked_at": "2026-04-20 14:39:40",
+  "root": "C:\\Users\\kevin\\Desktop\\OpenClaw",
+  "files": [
+    {
+      "label": "角色协议",
+      "file": "角色协议.md",
+      "path": "C:\\Users\\kevin\\Desktop\\OpenClaw\\角色协议.md",
+      "exists": true,
+      "empty": false,
+      "missing_keywords": [],
+      "level": "ok"
+    },
+    {
+      "label": "运行机制",
+      "file": "运行机制.md",
+      "path": "C:\\Users\\kevin\\Desktop\\OpenClaw\\运行机制.md",
+      "exists": true,
+      "empty": false,
+      "missing_keywords": [],
+      "level": "ok"
+    },
+    {
+      "label": "任务分发机制",
+      "file": "任务分发机制.md",
+      "path": "C:\\Users\\kevin\\Desktop\\OpenClaw\\任务分发机制.md",
+      "exists": true,
+      "empty": false,
+      "missing_keywords": [],
+      "level": "ok"
+    },
+    {
+      "label": "证据链模板",
+      "file": "证据链模板.md",
+      "path": "C:\\Users\\kevin\\Desktop\\OpenClaw\\证据链模板.md",
+      "exists": true,
+      "empty": false,
+      "missing_keywords": [],
+      "level": "ok"
+    },
+    {
+      "label": "验收模板",
+      "file": "验收模板.md",
+      "path": "C:\\Users\\kevin\\Desktop\\OpenClaw\\验收模板.md",
+      "exists": true,
+      "empty": false,
+      "missing_keywords": [],
+      "level": "ok"
+    },
+    {
+      "label": "运行检查清单",
+      "file": "运行检查清单.md",
+      "path": "C:\\Users\\kevin\\Desktop\\OpenClaw\\运行检查清单.md",
+      "exists": true,
+      "empty": false,
+      "missing_keywords": [],
+      "level": "ok"
+    },
+    {
+      "label": "真实任务试运行机制",
+      "file": "真实任务试运行机制.md",
+      "path": "C:\\Users\\kevin\\Desktop\\OpenClaw\\真实任务试运行机制.md",
+      "exists": true,
+      "empty": false,
+      "missing_keywords": [],
+      "level": "ok"
+    },
+    {
+      "label": "双角色协议",
+      "file": "双角色协议.md",
+      "path": "C:\\Users\\kevin\\Desktop\\OpenClaw\\双角色协议.md",
+      "exists": true,
+      "empty": false,
+      "missing_keywords": [],
+      "level": "ok"
+    },
+    {
+      "label": "问题清单",
+      "file": "问题清单.txt",
+      "path": "C:\\Users\\kevin\\Desktop\\OpenClaw\\问题清单.txt",
+      "exists": true,
+      "empty": false,
+      "missing_keywords": [],
+      "level": "ok"
+    },
+    {
+      "label": "治理进度",
+      "file": "治理进度.md",
+      "path": "C:\\Users\\kevin\\Desktop\\OpenClaw\\治理进度.md",
+      "exists": true,
+      "empty": false,
+      "missing_keywords": [],
+      "level": "ok"
+    },
+    {
+      "label": "治理完成标准",
+      "file": "治理完成标准.md",
+      "path": "C:\\Users\\kevin\\Desktop\\OpenClaw\\治理完成标准.md",
+      "exists": true,
+      "empty": false,
+      "missing_keywords": [],
+      "level": "ok"
+    },
+    {
+      "label": "治理阶段验收",
+      "file": "治理阶段验收.md",
+      "path": "C:\\Users\\kevin\\Desktop\\OpenClaw\\治理阶段验收.md",
+      "exists": true,
+      "empty": false,
+      "missing_keywords": [],
+      "level": "ok"
+    }
+  ],
+  "summary": {
+    "ok": 12,
+    "warning": 0,
+    "empty": 0,
+    "missing": 0
+  },
+  "maturity": "基本成熟"
+}

@@ -1,0 +1,88 @@
+请严格按AGENTS.md里Session Startup的顺序执行：依次读取SOUL.md、USER.md、规范条约.md、今天和昨天的memory目录下md(若有)、若存在则读MEMORY.md；读完后用不超过5条要点复述《规范条约》前7行中的角色与边界，并逐条回答：是否已读到上述每个文件、每个文件是否存在。
+
+下载 https://marketing.dfcfw.com/res/download/A620260402NXEUQC.md 文档后按照文档内容安装妙想skill技能包，
+并配置永久环境变量 process.env.MX_APIKEY=mkt_fgN0XtXWjMxR9zxtDS9EkHx9pz6-OzfHl06C1ywGdls
+
+帮我让openclaw逐个安装以下技能(一个一个来，不要一起安装)：
+可尝试通过clawhub寻找sonoscli技能(registry 使用中国镜像站 https://cn.clawhub-mirror.com)安装。
+每一个技能安装完成后，需要确保openclaw能正常使用该技能，确保打通并深入学习该技能，同时具备搭配使用的自主意识后，再进行下一个技能安装。
+安装前先验证插件是否存在，如果不存在则跳过并在最后汇总。
+务必确保：我在浏览器里面和openclaw的对话中，它能正常使用已安装的技能(如果只能在你的黑盒中使用是不行的)。
+self-improving-agent、
+memory-manager、
+find-skills、
+tavily-search、
+summarize、
+agent-browser、
+self-improving、
+skill-vetter、
+proactive-agent、
+multi-search-engine、
+Official Baidu search、
+Volcengine Search、
+Kagi Summarizer、
+Data Analyst、
+Schema Builder。
+
+将记忆缓存管理系统健康状态提升到95分以上。
+
+执行完后立即开始连接真实mx-xuangu API进行一次实际选股。
+
+请严格按AGENTS.md里Session Startup的顺序执行：依次读取SOUL.md、USER.md、规范条约.md、今天和昨天的memory目录下md(若有)、若存在则读MEMORY.md；读完后用不超过5条要点复述《规范条约》前7行中的角色与边界，并逐条回答：是否已读到上述每个文件、每个文件是否存在。
+
+根据最新选股策略，按照[反推进化机制]向前反推20个交易日，反复优化策略，直到胜率达到95%(若无法达到，可降低至90%)。然后按照[股票筛选输出数量]和[股票信息输出结构]推荐股票给我，并将结果同步到QQ邮箱。
+
+再次从最后一个交易日向前反推60个交易日，无限优化选股策略，要求胜率最大化(95%以上)、收益最大化、回撤最小化，直到你认为无法再提升为止。进化完成后推荐股票给我，并将结果同步到QQ邮箱。
+
+我的交易策略是短线持有1~5天，你继续深度进化选股策略，你可以自行调整因子框架，可自行决策反推天数，可自行决策反推次数，只要能达成我的目标就行(95%胜率)。也可以逐步升级进化。
+
+
+我理解的流程是这样的：把选股策略喂给mx-xuangu技能，它会根据策略返回你要的股票信息。然后用mx-data查询这些股票在下一个交易日是否上涨，上涨了多少，后面5个交易日上涨了多少，单日回撤了多少，也就是所谓的验证命中率。例如mx-xuangu根据你的选股策略返回了3条数据，那么你只需要用mx-data去验证这3条数据。整个过程不需要你用mx-data跑去查询几百条几千条数据进行分析。同时还有很多技能也能搭配使用，我此前跟你说过的，一定要深入学习理解技能库的使用！data-analyst、data-analyst-cn这两个技能有助于你提高解析mx-data和mx-xuangu的效率，self-improvement、claw-self-improving-plus、self-improving-agent等技能有助于你自我进化，proactive-agent、memory-setup、memory-manager、agent-health-optimizer等技能有助于你管理记忆缓存，multi-search-engine这个技能也可以和mx-search一起搭配使用去查询盘外因子。我只例举了这些不代表只有这些，需要你去深度挖掘！深度进化！
+
+工欲善其事必先利其器，继续打磨技能整合，逐个把待接入、待集成、待深度集成的技能全部打通。
+
+继续反推进化，不断强化你的知识储备和选股策略，从最近一个交易日向前反推180个交易日，目的仍然是寻找下一个交易日必涨的股票(硬指标)。
+解释一下意图：我给你安排的定时任务中有尾盘筛选，其目的是尾盘买进，次日择机卖出，如果趋势较好可持仓1~5天(但不是硬指标)。
+
+你进化完成后返回给我的选股策略要按照以下格式(这也是东方财富/同花顺等平台中的"动态选股"所支持的格式)：
+`主板;非ST;非*ST;流通市值小于2000亿;当日主力净流入不低于3000万;涨跌幅在负2%到1%之间（可按市况微调并说明）;DDX大于0;DDY大于0;DDZ大于4;5日DDX大于0;5日内DDX飘红天数不少于3;大单净比大于0;3日增仓占比大于1.5%;量比不小于0.4;3日主力净流入不少于8000万;`
+
+你需要加强理解：主力净流入、DDE(DDX/DDY/DDZ)、“3日/5日/10日/更多……”不是指的涨幅，而是分别将各种指标套用在时间维度，例如“3日主力净流入”、“5日主力净流入”、“20日主力净流入”，同理还有“当日DDX”、“3日DDX”……另外还有深入理解什么是“暗盘”，你可以自行搜索学习并加强理解。
+
+按照你的方案继续执行，执行完后继续自主规划，在我给你的规范条约范围内，你拥有最高权限和决策权，在我没有明确叫停的前提下，你都可以一直进化下去。这个过程中需要持续输出进化状态。
+
+我再次说明一下我设计的反推流程：
+今天是2026/4/18，最近一个交易日是4/17，所以我们从4/17开始反推。
+
+反推第一天：
+1.用最新选股策略通过[mx-xuangu技能查询出4月16日]的股票数据(采用所有返回的数据，无需过滤排名)，暂存为"待验证股票组"。
+2.再用[mx-data查询"待验证股票组"在4月17日]的收盘数据进行验证。
+
+反推第二天：
+1.用最新选股策略通过[mx-xuangu技能查询出4月15日]的股票数据，暂存为"待验证股票组"。
+2.再用[mx-data查询"待验证股票组"在4月16日]的收盘数据进行验证。
+
+反推第三天：
+1.用最新选股策略通过[mx-xuangu技能查询出4月14日]的股票数据，暂存为"待验证股票组"。
+2.再用[mx-data查询"待验证股票组"在4月15日]的收盘数据进行验证
+
+以此类推……
+
+验证方式：如果涨了则说明命中；如果跌了则说明需要改进，此时需要全方面对比“待验证股票组”中的上涨票和下跌票有哪些差异，将选股策略向上涨的“靠拢”。
+
+
+AkShare
+
+Intelligent Stocks Screener、All-Market Financial Data Hub、Financial Search Engine、Global Macro Database Assistant、Initiation of Coverage Agent、Industry Research Agent、eastmoney skills、mx-financial-assistant
+
+
+20个交易日推演完后，逐步追加到60/120/180个交易日
+
+你说的59个历史CSV文件是否就是我说的本地数据库800个交易日数据？如果不是的话，可以将他们合并到一起使用。
+
+
+a-stock-get
+
+akshare-finance
+
+FTShare-market-data
